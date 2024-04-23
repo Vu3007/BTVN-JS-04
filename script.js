@@ -5,7 +5,7 @@ let colors = [
     '#2c3e50',
     '#d35400',
 ]
-//1
+//1,2
 for(let i=0;i<colors.length;i++){
     const render=document.querySelector(".boxes")
     render.insertAdjacentHTML("beforeend", '<div class="box"> </div>')
